@@ -1,0 +1,108 @@
+/* Variables */
+:root {
+    --dark-bg: #1f2937;
+
+    --hero-title-fsize: 48px;
+    --hero-title-color: #f9faf8;
+    --hero-title-fweight: 900;
+
+    --hero-sub-fsize: 18px;
+    --hero-sub-color: #e5e7eb;
+
+    --hero-logo-fsize: 24px;
+    --hero-logo-color: #f9faf8;
+
+    --btn-cta--cta-bg: #3882f6;
+
+    --info-head-fsize: 36px;
+    --info-head-color: #1f2937;
+    --info-head-fweight: 900;
+
+    --quote-bg: #e5e7eb;
+    --quote-text-fsize: 36px;
+    --quote-text-color: #1f2937;
+    --quote-text-fweight: 300;
+}
+
+/* Main styles + layout */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Inter', 'JetBrains Mono', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    padding: 0 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 20px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-text-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+}
+
+.nav-container, .hero, .foot {
+    background-color: var(--dark-bg);
+}
+
+.hero-title {
+    font-size: var(--hero-title-fsize);
+    color: var(--hero-title-color);
+    font-weight: var(--hero-title-fweight);
+}
+
+.hero-subtitle {
+    font-size: var(--hero-sub-fsize);
+    color: var(--hero-sub-color);
+}
+
+.logo {
+    font-size: var(--hero-logo-fsize);
+    color: var(--hero-logo-color);
+}
+
+.hero-cta-btn {
+    background-color: var(--btn-cta--cta-bg);
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+.cards-img {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.img {
+    border-radius: 6px;
+    border: 4px solid rgb(32, 129, 226)
+}
