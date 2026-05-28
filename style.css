@@ -59,7 +59,9 @@ body {
     padding: 8px;
 }
 
-.nav-container, .hero, .foot {
+.nav-container,
+.hero,
+.foot {
     background-color: var(--dark-bg);
 }
 
@@ -94,6 +96,7 @@ body {
     align-items: center;
     gap: 20px
 }
+
 .cards-img {
     display: flex;
     flex: 1;
@@ -119,4 +122,56 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: var(--btn-cta--cta-bg);
+    width: 700px;
+}
+
+.cta-text {
+    align-items: start;
+    flex: 1;
+}
+
+.cta-cta-btn {
+    border-radius: 16px;
+    border: 4px solid whitesmoke;
+    background-color: var(--btn-cta--cta-bg);
+    height: 50px;
+    width: 110px;
+}
+
+.container {
+    margin: 20px;
+}
+
+.hero {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.foot {
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    color: white;
+    height: 75px;
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
