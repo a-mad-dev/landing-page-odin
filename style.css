@@ -106,3 +106,17 @@ body {
     border-radius: 6px;
     border: 4px solid rgb(32, 129, 226)
 }
+
+.quote {
+    background-color: var(--quote-bg);
+    font-size: var(--quote-text-fsize);
+    color: var(--quote-text-color);
+    font-weight: var(--quote-text-fweight);
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
